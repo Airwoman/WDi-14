@@ -1,0 +1,55 @@
+body{
+  background-color: gainsboro;
+
+}
+.container-float {
+  background-color: black;
+}
+.constant{
+  width: 200px;
+  height: 10px;
+  background: black;
+}
+.boxModel{
+  width: 200px;
+  background: blue;
+  border: 10px solid grey;
+  padding: 10px;
+}
+.container .leftSidebar{
+  width: 65%;
+  height: 100px;
+  background-color: rebeccapurple;
+  display:inline-block;
+  float: left;
+}
+.container-float .leftSidebar{
+  width: 65%;
+  height: 100px;
+  background-color: rebeccapurple;
+  display:inline-block;
+  float: left;
+}
+.container .rightSidebar{
+  width: 25%;
+  height: 60px;
+  float: right;
+  display: inline-block;
+  background-color: red;
+}
+
+.container-float .rightSidebar{
+  width: 30%;
+  height: 60px;
+  float: left;
+  display: inline-block;
+  background-color: red;
+}
+.clear{
+  clear: both;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
